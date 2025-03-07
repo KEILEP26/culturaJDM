@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Favi.png" type="image/x-icon">
+    <title>JDM Culture</title>
+    <link rel="stylesheet" href="Css/ProyectoEstilo.css">
+</head>
+<body>
+    <img src="img/logoJDM.png" alt="Imagen con efecto neón" class="neon-img">
+    <p class="time" id="time"></p>
+        <div class="menu">
+        <nav>
+            <a href="Que_es.html">¿Que es?</a>
+            <a href="Modelos.html">Modelos Legendarios</a>
+            <a href="Modificaciones.html">Modificaciones y Tunning</a>
+            <a href="Drifting.html">Drifting</a>
+            <a href="Cultura.html">Cultura JDM</a>
+        </nav>
+        </div>
+    </div>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/kenjikuun?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+                <img src="img/ig.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@kenyinakamura?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
+                <img src="img/tiktok.png" alt="TikTok">
+            </a>
+        </div>
+    </footer>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('time').textContent = now.toLocaleString();
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
+       <audio autoplay loop>
+        <source src="./Audio_Video/Audiofondo.mp3" type="audio/mp3">
+        Tu navegador no soporta el audio.
+    </audio> 
+</body>
+</html>

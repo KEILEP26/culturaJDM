@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Favi.png" type="image/x-icon">
+    <title>Cultura JDM - JDM Culture</title>
+    <link rel="stylesheet" href="Css/culturajdm.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">La Cultura JDM en la Sociedad</h1>
+    </header>
+
+    <section class="contenido">
+        <p>La cultura JDM (*Japanese Domestic Market*) ha trascendido fronteras, convirtiéndose en un fenómeno global. No solo es un estilo de modificación de autos, sino también un símbolo de pasión, precisión e innovación.</p>
+
+        <h2>🏁 Orígenes y Evolución</h2>
+        <p>Desde sus inicios en las calles de Japón hasta los escenarios internacionales, la cultura JDM ha influenciado a generaciones de entusiastas. Modelos icónicos como el Nissan Skyline GT-R, Toyota Supra MK4 y Mazda RX-7 se han convertido en leyendas gracias a su ingeniería y capacidad de modificación.</p>
+
+        <h2>🌎 Impacto en la Sociedad</h2>
+        <p>Más allá de la velocidad y el estilo, la cultura JDM ha fomentado comunidades apasionadas, eventos como *Tokyo Auto Salon* y legendarios puntos de reunión como <strong>Daikoku Parking Area</strong>, donde los amantes del JDM exhiben sus máquinas y comparten experiencias.</p>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="Audio_Video/CulturaJDM.mp4" 
+                    title="Cultura JDM - Explicación e Impacto" frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+
+        <h2>📍 Mapa de Daikoku Parking Area</h2>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1660082310633!2d139.67385371525844!3d35.473604680247795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185db6a5c6b8c1%3A0x39a5368e299ebdf7!2sDaikoku%20Parking%20Area!5e0!3m2!1ses!2smx!4v1709856456789" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <h2>📝 Comparte tu Experiencia JDM</h2>
+    <p>Cuéntanos sobre tu auto JDM favorito y qué modificaciones te gustaría hacerle.</p>
+    
+    <form action="procesar_formulario.php" method="post" class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    
+        <label for="modelo">Modelo de Auto JDM Favorito:</label>
+        <input type="text" id="modelo" name="modelo" required>
+    
+        <label for="modificacion">Modificación que más te gusta:</label>
+        <select id="modificacion" name="modificacion">
+            <option value="motor">Motor (Turbo, ECU, etc.)</option>
+            <option value="suspension">Suspensión</option>
+            <option value="escape">Sistema de Escape</option>
+            <option value="carroceria">Body Kits</option>
+            <option value="ruedas">Rines y Neumáticos</option>
+            <option value="interior">Interior (Asientos, Volante, Medidores)</option>
+        </select>
+    
+        <label for="experiencia">Cuéntanos sobre tu pasión por el JDM:</label>
+        <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+    
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div class="back-button">
+        <a href="Proyecto_JDM.html">⬅ Volver al Menú Principal</a>
+    </div>  
+
+    <footer>
+        <p>© 2025 JDM Culture - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
